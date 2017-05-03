@@ -1,0 +1,78 @@
+body,h1,h2,h3,h4,p,dl,dd,ul,ol,form,input,textarea,th,td,select{margin:0px;padding:0px;}
+em{font-style:normal;}
+li{list-style:none;}
+a{text-decoration:none;}
+img{border:none;vertical-align:middle;}
+table{border-collapse:collapse;}
+input,textarea{outline:none;}
+textarea{resize:none;overflow:auto;}
+html,body{width:100%;height:100%;font-size:16px;font-family:arial;}
+
+.header{width:100%;height:67px;background:black;}
+.header .nav{width:100%;height:67px;max-width:1127px;margin:0 auto;line-height:67px;position:relative;}
+.header .nav img{float:left;margin-top:18px;}
+.header .nav ul{float:right;}
+.header .nav ul li{float:left;margin-left:30px;}
+.header .nav ul li a{color:white;display:inline-block;height:25px;line-height:25px;text-align:center;border-radius:5px;border:1px solid #000;}
+.header .nav ul li #home{width:55px;}
+.header .nav ul li #about{width:60px;}
+.header .nav ul li #rend{width:90px;}
+.header .nav ul li #d3{width:110px;}
+.header .nav ul li #bim{width:40px;}
+.header .nav ul li #contact{width:70px;}
+.header .nav ul li a:hover{border:1px solid white;}
+.header .nav div{position:absolute;top:0px;right:10px;width:100px;}
+.header .nav div p{width:40px;height:5px;background:red;border-radius:2px;position:absolute;right:20px;display:none;}
+.header .nav div ul{display:none;z-index:999;}
+.header .nav div ul li{text-align:center;border-bottom:1px solid;margin:0px;}
+.header .nav .p1{top:20px;}
+.header .nav .p2{top:30px;}
+.header .nav .p3{top:40px;}
+
+
+.foot{
+	text-align:center;
+}
+.foot p{
+	width:35px;
+	height:26px;
+	margin:85px auto 20px;
+	background:url(../img/mail-1.jpg)no-repeat;
+}
+.foot p:hover{
+	background:url(../img/mail-2.png)no-repeat;
+}
+.foot img{
+	padding:0 5px;
+}
+.foot div{padding:20px;font-size:14px;color:#1e1e1e;}
+
+
+@media screen and (max-width:960px){
+	.header .nav div p{
+		display:block;
+	}
+	.header .nav ul{
+		float:none;
+		width:110px;
+		text-align:center;
+		position:absolute;
+		border:1px solid;
+		border-bottom:none;
+		right:0px;
+		top:67px;
+		display:none;
+	}
+	.header .nav div ul li{
+		float:none;
+		background:rgba(80,88,100,0.5);
+		margin:0px;
+	}
+	.header .nav div ul li:hover a{
+		background:blue;
+		display:inline-block;
+	}
+	.header .nav div ul li a{
+		border:none;
+	}
+}

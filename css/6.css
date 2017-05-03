@@ -1,0 +1,97 @@
+
+body{
+	background:#F5F5F5 url(../img/contact_bg.png) no-repeat center center/100% 60%;
+}
+
+.header .nav ul li #contact{border:1px solid white;}
+
+
+
+.contont .text{
+	width:100%;
+	max-width:700px;
+	height:125px;
+	margin:130px auto 0;
+	text-align:center;
+	border-bottom:1px solid #e1e1e1;
+}
+.contont .text b{
+	font-size:20px;
+}
+.contont .text span{font-size:18px;}
+.contont .text .div2{margin-top:25px;}
+
+.contont .tel{
+	width:100%;
+	max-width:960px;
+	overflow:hidden;
+	margin:30px auto 310px;
+}
+.contont .tel div{margin:10px;}
+.contont .tel .fl{float:left;}
+.contont .tel .fl div{float:left;}
+.contont .tel .mobble p{
+	padding-top:14px;
+}
+
+
+
+@media screen and (max-width:960px) {
+
+	.contont ul .l_space{
+		display:none;
+	}
+	.contont ul .l_space_1{
+		display:none;
+	}
+	.contont ul{
+		width:100%;
+		border-bottom:none;
+		overflow:none;
+		text-align:center;
+	}
+	.contont ul li{
+		height:auto;
+		float:none;
+	}
+	.contont ul .fr{float:none;}
+
+	.contont ul .l_text_1 p,ul p{
+		width:100%;
+		float:none;
+		padding-bottom:20px;
+	}
+
+	.contont ul .l_img{
+		width:100%;
+	}
+	.contont ul .l_text{
+		padding-left:0px;
+		width:100%;
+	}
+	.contont ul .l_text_1{
+		width:100%;
+		text-align:center;
+		padding-right:0;
+	}
+	.contont .tel .fl{float:none;overflow:hidden;}
+	.contont .tel>div{width:400px;margin:0 auto;}
+	.contont .tel .mobble{padding-left:8px;}
+	.contont .tel .address{padding-left:5px;}
+	.contont .tel .mobble p{padding-left: 8px}
+	.contont .tel .addr p{padding-left: 8px}
+	.contont .text{width:400px;text-align:left;padding-left:4%;}
+}
+
+@media screen and (max-width:480px) {
+
+	.contont .tel p{font-size:14px;}
+	.contont .tel .fl{margin-left:2%};
+
+}
+
+	
+
+
+
+

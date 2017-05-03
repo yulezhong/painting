@@ -1,0 +1,165 @@
+
+.header .nav ul li #d3{border:1px solid white;}
+
+
+.wrap .contont{
+	width:100%;
+	background:#1b1b1b;
+	position:relative;
+}
+.wrap .contont div{
+	width:100%;
+	max-width:1127px;
+	margin:0 auto;
+}
+.wrap .contont .big div{
+	width:5%;
+	position:absolute;
+	opacity:0.6;
+	top:42%;
+	left:47%;
+}
+.wrap .contont .big div img{
+	width:100%;
+}
+.wrap .contont .big img{
+	width:100%;
+}
+.wrap .contont h2{
+	width:100%;
+	position:absolute;
+	text-align:center;
+	background:rgba(0,0,0,0.4);
+	color:white;
+	font-size:20px;
+	left:0px;
+	bottom:0px;
+	height:10%;
+	line-height:300%;
+}
+.wrap .pic{
+	width:100%;
+	max-width:1127px;
+	overflow:hidden;
+	margin:20px auto 40px;
+}
+.wrap .pic div{
+	float:left;
+	width:32%;
+	margin:0 auto;
+	text-align:center;
+	position:relative;
+	cursor:pointer;
+}
+.wrap .pic div img{
+	width:100%;
+	border-radius:10px;
+}
+.wrap .pic div p{
+	line-height:40px;
+	font-size:18px;
+	color:#909090;
+}
+.wrap .pic div div{
+	position:absolute;
+	top:35%;
+	left:50%;
+	width:100%;
+	max-width:21px;
+	height:100%;
+	max-height:25px;
+	background:url(../img/pps.png)no-repeat;
+}
+.wrap .pic div:hover div{
+	background:url(../img/ppsp.png)no-repeat;
+}
+.wrap .pic .pic_1{
+	margin:0 2%;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:960px) {
+
+	.contont ul .l_space{
+		display:none;
+	}
+	.contont ul .l_space_1{
+		display:none;
+	}
+	.contont ul{
+		width:100%;
+		border-bottom:none;
+		overflow:none;
+		text-align:center;
+	}
+	.contont ul li{
+		height:auto;
+		float:none;
+	}
+	.contont ul .fr{float:none;}
+
+	.contont ul .l_text_1 p,ul p{
+		width:100%;
+		float:none;
+		padding-bottom:20px;
+	}
+
+	.contont ul .l_img{
+		width:100%;
+	}
+	.contont ul .l_text{
+		padding-left:0px;
+		width:100%;
+	}
+	.contont ul .l_text_1{
+		width:100%;
+		text-align:center;
+		padding-right:0;
+	}
+	.wrap .pic div{
+		width:45%;
+	}
+	.wrap .pic .pic_1{
+		margin:0;
+	}
+	.wrap .pic div:nth-child(2n-1){
+		margin:0 3.3333%;
+	}
+	.wrap .pic div p{
+		font-size:16px;
+	}
+	.wrap .contont h2{
+		font-size:16px;
+		line-height:250%;
+	}
+}
+@media screen and (max-width:580px){
+		.wrap .pic div{
+			width:90%;
+		}
+		.wrap .pic div:nth-child(2n-1){
+			margin:0;
+		}
+
+		.wrap .pic div:nth-child(n){
+			margin:0 5%;
+		}
+		.wrap .contont h2{
+			font-size:12px;
+			line-height:150%;
+		}
+}
+
+
+
+
+
+
+
